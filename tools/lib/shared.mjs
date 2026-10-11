@@ -350,14 +350,6 @@ export function normalizeLighthouseSeverity(score, weight) {
   return 'minor';
 }
 
-// ── Playwright context helpers ─────────────────────────────────
-
-export function contextOptions({ storageState, viewport = { width: 1280, height: 800 } } = {}) {
-  const opts = { viewport };
-  if (storageState) opts.storageState = storageState;
-  return opts;
-}
-
 // ── JSONL helpers ──────────────────────────────────────────────
 
 export function loadJsonl(path) {
