@@ -111,8 +111,6 @@ Produces `manual-testing-guide.md` — a site-specific checklist for the human t
 2. What MUST be tested manually (keyboard navigation, screen reader, visual verification)
 3. What could not be determined — marked as "needs human verification"
 
-**Always generate this guide.** Do not skip this step.
-
 ### Step 7: Generate Report
 
 ```bash
