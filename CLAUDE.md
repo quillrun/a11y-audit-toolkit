@@ -161,7 +161,7 @@ Writes `diff-report.{json,md}`. Exit code is 1 when any added / regressed / seve
   - Single engine automated pass/fail = MEDIUM-HIGH confidence
   - DOM metadata heuristic = MEDIUM confidence
   - Anything not tested = UNKNOWN — never claim "pass"
-- **Generate the manual guide.** After automated steps complete, always run `audit-manual-guide.mjs`. Present the guide to the user before finalizing findings.
+- **Present the manual guide.** `audit-all.mjs` generates it (`audit-manual-guide.mjs`) as its last step; show it to the user before finalizing findings.
 - **Be honest about limits.** Automated engines cannot test keyboard navigation end-to-end, screen reader behavior, reading order, alt-text quality, or visual focus indicator visibility. These require human testing. Say so clearly in deliverables.
 
 ## Reference
